@@ -1,1 +1,1 @@
-Pasquale ci ha costretti, scusa Bernà.
+Pasquale ci ha costretti, scusa Berna'.
