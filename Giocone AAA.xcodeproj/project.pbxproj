@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A346FA91EE54C480036DBE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A346FA81EE54C480036DBE7 /* AppDelegate.swift */; };
+		6A346FAB1EE54C480036DBE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A346FAA1EE54C480036DBE7 /* ViewController.swift */; };
+		6A346FAE1EE54C480036DBE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A346FAC1EE54C480036DBE7 /* Main.storyboard */; };
+		6A346FB01EE54C480036DBE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A346FAF1EE54C480036DBE7 /* Assets.xcassets */; };
+		6A346FB31EE54C480036DBE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A346FB11EE54C480036DBE7 /* LaunchScreen.storyboard */; };
+		6A346FBE1EE54C480036DBE7 /* Giocone_AAATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A346FBD1EE54C480036DBE7 /* Giocone_AAATests.swift */; };
+		6A346FC91EE54C480036DBE7 /* Giocone_AAAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A346FC81EE54C480036DBE7 /* Giocone_AAAUITests.swift */; };
+		6A346FD81EE54CAA0036DBE7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A346FD71EE54CAA0036DBE7 /* SpriteKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A346FBA1EE54C480036DBE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A346F9D1EE54C480036DBE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A346FA41EE54C480036DBE7;
+			remoteInfo = "Giocone AAA";
+		};
+		6A346FC51EE54C480036DBE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A346F9D1EE54C480036DBE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A346FA41EE54C480036DBE7;
+			remoteInfo = "Giocone AAA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A346FA51EE54C480036DBE7 /* Giocone AAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Giocone AAA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A346FA81EE54C480036DBE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A346FAA1EE54C480036DBE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A346FAD1EE54C480036DBE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A346FAF1EE54C480036DBE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A346FB21EE54C480036DBE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A346FB41EE54C480036DBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A346FB91EE54C480036DBE7 /* Giocone AAATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Giocone AAATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A346FBD1EE54C480036DBE7 /* Giocone_AAATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giocone_AAATests.swift; sourceTree = "<group>"; };
+		6A346FBF1EE54C480036DBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A346FC41EE54C480036DBE7 /* Giocone AAAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Giocone AAAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A346FC81EE54C480036DBE7 /* Giocone_AAAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giocone_AAAUITests.swift; sourceTree = "<group>"; };
+		6A346FCA1EE54C480036DBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A346FD71EE54CAA0036DBE7 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A346FA21EE54C480036DBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A346FD81EE54CAA0036DBE7 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A346FB61EE54C480036DBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A346FC11EE54C480036DBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A346F9C1EE54C480036DBE7 = {
+			isa = PBXGroup;
+			children = (
+				6A346FA71EE54C480036DBE7 /* Giocone AAA */,
+				6A346FBC1EE54C480036DBE7 /* Giocone AAATests */,
+				6A346FC71EE54C480036DBE7 /* Giocone AAAUITests */,
+				6A346FA61EE54C480036DBE7 /* Products */,
+				6A346FD61EE54CAA0036DBE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A346FA61EE54C480036DBE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A346FA51EE54C480036DBE7 /* Giocone AAA.app */,
+				6A346FB91EE54C480036DBE7 /* Giocone AAATests.xctest */,
+				6A346FC41EE54C480036DBE7 /* Giocone AAAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A346FA71EE54C480036DBE7 /* Giocone AAA */ = {
+			isa = PBXGroup;
+			children = (
+				6A346FA81EE54C480036DBE7 /* AppDelegate.swift */,
+				6A346FAA1EE54C480036DBE7 /* ViewController.swift */,
+				6A346FAC1EE54C480036DBE7 /* Main.storyboard */,
+				6A346FAF1EE54C480036DBE7 /* Assets.xcassets */,
+				6A346FB11EE54C480036DBE7 /* LaunchScreen.storyboard */,
+				6A346FB41EE54C480036DBE7 /* Info.plist */,
+			);
+			path = "Giocone AAA";
+			sourceTree = "<group>";
+		};
+		6A346FBC1EE54C480036DBE7 /* Giocone AAATests */ = {
+			isa = PBXGroup;
+			children = (
+				6A346FBD1EE54C480036DBE7 /* Giocone_AAATests.swift */,
+				6A346FBF1EE54C480036DBE7 /* Info.plist */,
+			);
+			path = "Giocone AAATests";
+			sourceTree = "<group>";
+		};
+		6A346FC71EE54C480036DBE7 /* Giocone AAAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A346FC81EE54C480036DBE7 /* Giocone_AAAUITests.swift */,
+				6A346FCA1EE54C480036DBE7 /* Info.plist */,
+			);
+			path = "Giocone AAAUITests";
+			sourceTree = "<group>";
+		};
+		6A346FD61EE54CAA0036DBE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A346FD71EE54CAA0036DBE7 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A346FA41EE54C480036DBE7 /* Giocone AAA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A346FCD1EE54C480036DBE7 /* Build configuration list for PBXNativeTarget "Giocone AAA" */;
+			buildPhases = (
+				6A346FA11EE54C480036DBE7 /* Sources */,
+				6A346FA21EE54C480036DBE7 /* Frameworks */,
+				6A346FA31EE54C480036DBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Giocone AAA";
+			productName = "Giocone AAA";
+			productReference = 6A346FA51EE54C480036DBE7 /* Giocone AAA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A346FB81EE54C480036DBE7 /* Giocone AAATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A346FD01EE54C480036DBE7 /* Build configuration list for PBXNativeTarget "Giocone AAATests" */;
+			buildPhases = (
+				6A346FB51EE54C480036DBE7 /* Sources */,
+				6A346FB61EE54C480036DBE7 /* Frameworks */,
+				6A346FB71EE54C480036DBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A346FBB1EE54C480036DBE7 /* PBXTargetDependency */,
+			);
+			name = "Giocone AAATests";
+			productName = "Giocone AAATests";
+			productReference = 6A346FB91EE54C480036DBE7 /* Giocone AAATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A346FC31EE54C480036DBE7 /* Giocone AAAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A346FD31EE54C480036DBE7 /* Build configuration list for PBXNativeTarget "Giocone AAAUITests" */;
+			buildPhases = (
+				6A346FC01EE54C480036DBE7 /* Sources */,
+				6A346FC11EE54C480036DBE7 /* Frameworks */,
+				6A346FC21EE54C480036DBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A346FC61EE54C480036DBE7 /* PBXTargetDependency */,
+			);
+			name = "Giocone AAAUITests";
+			productName = "Giocone AAAUITests";
+			productReference = 6A346FC41EE54C480036DBE7 /* Giocone AAAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A346F9D1EE54C480036DBE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luca Chianese";
+				TargetAttributes = {
+					6A346FA41EE54C480036DBE7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PL3PPA7N8L;
+						ProvisioningStyle = Automatic;
+					};
+					6A346FB81EE54C480036DBE7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A346FA41EE54C480036DBE7;
+					};
+					6A346FC31EE54C480036DBE7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A346FA41EE54C480036DBE7;
+					};
+				};
+			};
+			buildConfigurationList = 6A346FA01EE54C480036DBE7 /* Build configuration list for PBXProject "Giocone AAA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A346F9C1EE54C480036DBE7;
+			productRefGroup = 6A346FA61EE54C480036DBE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A346FA41EE54C480036DBE7 /* Giocone AAA */,
+				6A346FB81EE54C480036DBE7 /* Giocone AAATests */,
+				6A346FC31EE54C480036DBE7 /* Giocone AAAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A346FA31EE54C480036DBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A346FB31EE54C480036DBE7 /* LaunchScreen.storyboard in Resources */,
+				6A346FB01EE54C480036DBE7 /* Assets.xcassets in Resources */,
+				6A346FAE1EE54C480036DBE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A346FB71EE54C480036DBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A346FC21EE54C480036DBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A346FA11EE54C480036DBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A346FAB1EE54C480036DBE7 /* ViewController.swift in Sources */,
+				6A346FA91EE54C480036DBE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A346FB51EE54C480036DBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A346FBE1EE54C480036DBE7 /* Giocone_AAATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A346FC01EE54C480036DBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A346FC91EE54C480036DBE7 /* Giocone_AAAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A346FBB1EE54C480036DBE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A346FA41EE54C480036DBE7 /* Giocone AAA */;
+			targetProxy = 6A346FBA1EE54C480036DBE7 /* PBXContainerItemProxy */;
+		};
+		6A346FC61EE54C480036DBE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A346FA41EE54C480036DBE7 /* Giocone AAA */;
+			targetProxy = 6A346FC51EE54C480036DBE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A346FAC1EE54C480036DBE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A346FAD1EE54C480036DBE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A346FB11EE54C480036DBE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A346FB21EE54C480036DBE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A346FCB1EE54C480036DBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A346FCC1EE54C480036DBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A346FCE1EE54C480036DBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PL3PPA7N8L;
+				INFOPLIST_FILE = "Giocone AAA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luca-D.-Chianese.Giocone-AAA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A346FCF1EE54C480036DBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PL3PPA7N8L;
+				INFOPLIST_FILE = "Giocone AAA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luca-D.-Chianese.Giocone-AAA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A346FD11EE54C480036DBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Giocone AAATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luca-D.-Chianese.Giocone-AAATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giocone AAA.app/Giocone AAA";
+			};
+			name = Debug;
+		};
+		6A346FD21EE54C480036DBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Giocone AAATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luca-D.-Chianese.Giocone-AAATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giocone AAA.app/Giocone AAA";
+			};
+			name = Release;
+		};
+		6A346FD41EE54C480036DBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Giocone AAAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luca-D.-Chianese.Giocone-AAAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Giocone AAA";
+			};
+			name = Debug;
+		};
+		6A346FD51EE54C480036DBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Giocone AAAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luca-D.-Chianese.Giocone-AAAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Giocone AAA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A346FA01EE54C480036DBE7 /* Build configuration list for PBXProject "Giocone AAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A346FCB1EE54C480036DBE7 /* Debug */,
+				6A346FCC1EE54C480036DBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A346FCD1EE54C480036DBE7 /* Build configuration list for PBXNativeTarget "Giocone AAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A346FCE1EE54C480036DBE7 /* Debug */,
+				6A346FCF1EE54C480036DBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A346FD01EE54C480036DBE7 /* Build configuration list for PBXNativeTarget "Giocone AAATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A346FD11EE54C480036DBE7 /* Debug */,
+				6A346FD21EE54C480036DBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A346FD31EE54C480036DBE7 /* Build configuration list for PBXNativeTarget "Giocone AAAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A346FD41EE54C480036DBE7 /* Debug */,
+				6A346FD51EE54C480036DBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A346F9D1EE54C480036DBE7 /* Project object */;
+}
